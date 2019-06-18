@@ -1,10 +1,15 @@
-h1 {
-  color: pink
+center {
+  color: #696969;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px
+
 }
 
 h3 {
   font-size: 20px;
-  margin-bottom: 1px
+  margin-bottom: 1px;
+  font-family: 'Raleway', sans-serif
 }
 
 div{
@@ -16,9 +21,17 @@ mark {
   margin-top: 3px
 }
 p{
-  margin-bottom: 3px
+  margin-bottom: 3px;
+  color: grey
 }
 
-#box {
-  align-content: center
+button  {
+  border-radius: 10px;
+  background: #E6E6FA;
+}
+.checked {
+  color: #FFDF00;
+}
+#firstBook{
+  margin-left: 60px
 }
