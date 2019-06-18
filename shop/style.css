@@ -1,0 +1,24 @@
+h1 {
+  color: pink
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 1px
+}
+
+div{
+  display: inline-block;
+}
+mark {
+  background-color: lightpink;
+  color: black;
+  margin-top: 3px
+}
+p{
+  margin-bottom: 3px
+}
+
+#box {
+  align-content: center
+}
