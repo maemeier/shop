@@ -1,8 +1,9 @@
-center {
+h1 {
   color: #696969;
   font-size: 30px;
   margin-bottom: 50px;
-  margin-top: 50px
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif
 
 }
 
@@ -16,13 +17,13 @@ div{
   display: inline-block;
 }
 mark {
-  background-color: lightpink;
-  color: black;
+  background-color: #ffe1f0;
+  color: #333333;
   margin-top: 3px
 }
 p{
   margin-bottom: 3px;
-  color: grey
+  color: #333333
 }
 
 button  {
@@ -34,4 +35,11 @@ button  {
 }
 #firstBook{
   margin-left: 60px
+}
+img{
+  border-radius: 5px
+}
+i {
+  font-size: 15px;
+  color: #FFDF00
 }
