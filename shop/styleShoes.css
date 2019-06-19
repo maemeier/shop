@@ -1,0 +1,119 @@
+body{
+  background: #F0F0F0
+}
+.square {
+
+  width: 1300px;
+  margin-left:15%;
+  margin-top: 10%;
+  background-color: white;
+  border-top-left-radius: 50px;
+  box-shadow:-34px 12px 73px -47px rgba(0,0,0,0.75);
+}
+h1{
+  color:black;
+  padding-top: 90px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+  font-family: Roboto;
+  font-size: 20px
+
+}
+.bigDIv{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 10px
+}
+
+.sidebar {
+  background-color: white;
+  height:550px
+}
+#products {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-column-gap: 10px;
+ grid-gap: 10px
+
+}
+
+.product {
+  background: url('images/shoes.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #ECEFF0;
+  background-size: contain;
+}
+
+.pdiv{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+.left{
+  position: absolute;
+  bottom: 2px;
+  left: 10px
+}
+.right{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+}
+h2{
+
+  font-size: 20px
+
+}
+h3{
+  color: grey;
+  font-size: 10px
+}
+
+h4{
+  color: grey;
+  padding-left: 50px;
+  font-family: Open Sans
+}
+h5{
+  padding-left: 70px;
+  font-family: Open Sans
+}
+.under {
+  text-decoration: underline;
+}
+.button{
+  border: 1px;
+  border-radius: 50px;
+
+}
+p{
+  font-family: Open sans
+}
+span{
+  font-size: 13px;
+  color: #7D7D7D
+}
+.gradient-button {
+    text-align: center;
+    margin: 10px;
+    font-family: Open sans;
+    font-size: 13px;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 40px;
+    height: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50px;
+    vertical-align:middle;
+}
+.gradient-button-1 {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%)}
